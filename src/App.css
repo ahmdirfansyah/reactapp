@@ -1,5 +1,26 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  justify-content: center;
+  background-color:darkgrey;
+}
+
+.container{
+  padding: 10px;
+  margin: auto;
+  width: 90%;
+}
+
+.SeeAll{
+  float: right;
+}
+
+.past-meetups{
+  display: flex;
+  justify-content: space-around;
+}
+
+.copy{
+  text-justify: center ;
 }
 
 .App-logo {
